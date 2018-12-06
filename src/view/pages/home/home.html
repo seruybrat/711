@@ -1,0 +1,31 @@
+<main class="wrapper">
+  <img id="figure2" class="figure figure--right" src="assets/img/item2.png" alt="" />
+  <img id="figure1" class="figure figure--left" src="assets/img/item1.png" alt="" />
+
+  <div class="container">
+    <div class="main">
+
+      @@loop('components/article/article.html', [
+      {
+      "title": "Atemschutz",
+      "description": "Schutz vor Staub, Aerosol, Rauch und Gas",
+      "cssmodificator": "left",
+      "buttonText": "Mehr efrahen",
+      "image": "assets/img/item1-sm.png",
+      "link": "#",
+      "buttonId": "btn1"
+      }, {
+      "title": "Gehörschutz",
+      "description": "Schutz vor Lärm",
+      "cssmodificator": "right",
+      "buttonText": "Mehr efrahen",
+      "image": "assets/img/item2-sm.png",
+      "link": "#",
+      "buttonId": "btn2"
+      }
+      ])
+
+    </div>
+  </div>
+
+</main>

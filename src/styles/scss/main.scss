@@ -1,0 +1,17 @@
+// Base
+@import "base/functions.scss";
+@import "base/mixins.scss";
+
+// Theme customize
+@import "theme/variables.scss";
+@import "theme/fonts.scss";
+@import "theme/grid.scss";
+@import "theme/base.scss";
+@import "theme/icons.scss";
+
+// Components
+@import "./src/view/components/button/button.scss";
+
+// Pages
+@import "./src/view/pages/home/home.scss";
+@import "./src/view/pages/home/components/article/article.scss";

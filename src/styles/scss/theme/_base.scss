@@ -1,0 +1,16 @@
+// tags
+html {
+  font-family: $main-font-family;
+  font-size: $root-font-size;
+  color: $font-color;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+//hide svg output
+.visuallyhidden {
+  display: none;
+}

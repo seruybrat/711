@@ -1,0 +1,16 @@
+// Font-family
+@include font-face(
+  "FuturaPT",
+  "../assets/fonts/FuturaPT/FuturaPT-Demi",
+  300,
+  lighter
+);
+
+@include font-face(
+  "FuturaPT",
+  "../assets/fonts/FuturaPT/FuturaPT-Heavy",
+  600,
+  bold
+);
+
+
