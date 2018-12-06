@@ -2,7 +2,7 @@
 
 ```html
 src/      -source
-build/    -production
+dist/    -production
 
 npm i
 npm run start
